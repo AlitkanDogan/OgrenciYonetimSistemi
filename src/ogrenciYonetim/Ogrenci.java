@@ -1,19 +1,19 @@
 package ogrenciYonetim;
 
 public class Ogrenci {
-    public String ad;
+    private String ad;
 
-    public String sAd;
+    private String sAd;
 
-    public String tcNo;
+    private String tcNo;
 
-    public int yas;
+    private int yas;
 
-    public int numara;
+    private int numara;
 
-    public int sinif;
+    private int sinif;
 
-    public Ogrenci() {
+    private Ogrenci() {
     }
 
     public Ogrenci(String ad, String sAd, String tcNo, int yas, int numara, int sinif) {
@@ -75,7 +75,7 @@ public class Ogrenci {
 
     @Override
     public String toString() {
-        return  "ad= " + ad + ", " +
+        return  " ad= " + ad + ", " +
                 " sAd= " + sAd + ", " +
                 " tcNo= " + tcNo + ", " +
                 " yas= " + yas + ", " +

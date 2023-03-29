@@ -14,9 +14,9 @@ public class Islemler {
         System.out.println("============== İŞLEMLER ==============\n"+
        "\t\t 1- EKLEME\n" +
        "\t\t 2- LİSTELEME\n"+
-       "\t\t 3-ARAMA\n"+
+       "\t\t 3- ARAMA\n"+
        "\t\t 4- SİLME\n"+
-       "\t\t Q-ÇIKIŞ\n"+
+       "\t\t Q- ÇIKIŞ\n"+
                 "\n"+
                 "\t SEÇİNİZ:");
 
